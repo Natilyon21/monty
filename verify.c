@@ -3,10 +3,9 @@
 arg_t arg = {0, 0};
 
 /**
-  * comment_check - checks if line is a comment.
+  * comment_check - checks if a line is a comment.
   * @line - struct containing line content and number.
-  *
-  * Return: true if comment otherwise false.
+  * Return: ...
   */
 bool comment_check(line_t line)
 {
@@ -28,8 +27,7 @@ bool comment_check(line_t line)
 /**
   * argument_check - checks arg validity.
   * @token: argument to be checked.
-  *
-  * Return: true if valid otherwise false.
+  * Return: ...
   */
 bool argument_check(char *token)
 {
@@ -51,15 +49,13 @@ bool argument_check(char *token)
 	return (true);
 }
 
-
 /**
   * push_check - check if push opcode is being used and sets
   * global argument variable if true.
   * @line: struct containg line content and number.
   * @opcode: opcode to compare.
   * @meta: struct containing all alocated memory.
-  *
-  * Return: NAIN.
+  * Return: ...
   */
 void push_check(line_t line, meta_t *meta, char *opcode)
 {
