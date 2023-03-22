@@ -1,11 +1,10 @@
 #include "monty.h"
 
 /**
-  * addop - finds sum of top two elements
-  * @stack: pointer to the head node pointer of stack
+  * addop - finds the sum of the top two elements
+  * @stack: pointer to the head node of stack
   * @nline: line number
-  *
-  * Return: NAIN
+  * Return: sum
   */
 void addop(stack_t **stack, unsigned int nline)
 {
@@ -28,8 +27,7 @@ void addop(stack_t **stack, unsigned int nline)
   * subop - finds difference in top 2 elements ands stores it in 2nd element.
   * @stack: pointer to the head node pointer of stack
   * @nline: line number
-  *
-  * Return: NAIN
+  * Return: difference
   */
 void subop(stack_t **stack, unsigned int nline)
 {
@@ -51,11 +49,9 @@ void subop(stack_t **stack, unsigned int nline)
 
 /**
   * divop - divides top 2 stack elements
-  * ands stores it in second element
-  * @stack: pointer to the head node pointer of stack
+  * @stack: pointer to the head node of the stack
   * @nline: line number
-  *
-  * Return: NAIN
+  * Return: div result
   */
 void divop(stack_t **stack, unsigned int nline)
 {
@@ -83,11 +79,10 @@ void divop(stack_t **stack, unsigned int nline)
 
 
 /**
-  * mulop - multiplies top 2 elements ans stores res in 2nd element.
-  * @stack: pointer to the head node pointer of stack
+  * mulop - multiplies top 2 elements.
+  * @stack: pointer to the head node of the stack
   * @nline: line number
-  *
-  * Return: NAIN
+  * Return: result
   */
 void mulop(stack_t **stack, unsigned int nline)
 {
@@ -109,11 +104,10 @@ void mulop(stack_t **stack, unsigned int nline)
 
 
 /**
-  * modop - finds modulus of top 2 elements and stores it in 2nd element.
+  * modop - finds modulus of top 2 elements.
   * @stack: pointer to the head node pointer of stack
   * @nline: line number
-  *
-  * Return: NAIN
+  * Return: result
   */
 void modop(stack_t **stack, unsigned int nline)
 {
