@@ -1,11 +1,10 @@
 #include "monty.h"
 
 /**
-  * push - pushes node to top of stack.
+  * push - pushes node to the top of the stack.
   * @stack: pointer to head node pointer of stack
   * @nline: line number.
-  *
-  * Return: NAIN.
+  * Return: ...
   */
 void push(stack_t **stack, unsigned int nline)
 {
@@ -37,8 +36,7 @@ void push(stack_t **stack, unsigned int nline)
   * pall - prints data of all nodes in stack.
   * @stack: pointer to head node pointer of stack.
   * @nline: line number.
-  *
-  * Return: nothing.
+  * Return: NULL
   */
 void pall(stack_t **stack, unsigned int nline)
 {
@@ -57,8 +55,7 @@ void pall(stack_t **stack, unsigned int nline)
 /**
   * free_stack - frees all nodes in a stack.
   * @stack: pointer to head node pointer of a stack.
-  *
-  * Return: NAIN
+  * Return: ...
   */
 void free_stack(stack_t **stack)
 {
@@ -80,8 +77,7 @@ void free_stack(stack_t **stack)
   * nop - does NAIN.
   * @stack: pointer to head node pointer of stack.
   * @nline: line number.
-  *
-  * Return: NAIN.
+  * Return: ...
   */
 void nop(stack_t **stack, unsigned int nline)
 {
@@ -93,8 +89,7 @@ void nop(stack_t **stack, unsigned int nline)
 /**
   * _isalpha - checks if int is an alphabet.
   * @c: int
-  *
-  * Return: 1 if yes, 0 otherwise.
+  * Return: 1 if yes, or 0 if not
   */
 int _isalpha(int c)
 {
