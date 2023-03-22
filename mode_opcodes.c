@@ -4,8 +4,7 @@
   * addst - changes mode of push to stack.
   * @stack: pointer to stack.
   * @nline: line number.
-  *
-  * Return: NAIN!!
+  * Return: ...
   */
 void addst(stack_t **stack, unsigned int nline)
 {
@@ -19,8 +18,7 @@ void addst(stack_t **stack, unsigned int nline)
   * addqu - changes mode of push to queue
   * @stack: pointer to stack.
   * @nline: line number.
-  *
-  * Return: NAIN!!
+  * Return: ...
   */
 void addqu(stack_t **stack, unsigned int nline)
 {
