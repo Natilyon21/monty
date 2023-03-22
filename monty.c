@@ -4,9 +4,7 @@
   * main - opens a monty script file for parsing.
   * @argc: number of arguments.
   * @argv: argument vector.
-  *
-  * Return: EXIT_SUCCESS on success or
-  * EXIT_FAILURE on failure.
+  * Return: ...
   */
 int main(int argc, char *argv[])
 {
