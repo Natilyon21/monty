@@ -1,10 +1,10 @@
 #include "monty.h"
 
 /**
-  * pint - prints value at top of stack
+  * pint - prints value at the top of the stack
   * @stack: pointer to the head node pointer of stack
   * @nline: line number
-  * Return: NAIN
+  * Return: ...
   */
 void pint(stack_t **stack, unsigned int nline)
 {
@@ -32,8 +32,7 @@ void pint(stack_t **stack, unsigned int nline)
   * pop - removes top element of stack.
   * @stack: pointer to the head node pointer of stack
   * @nline: line number
-  *
-  * Return: NAIN
+  * Return: ...
   */
 void pop(stack_t **stack, unsigned int nline)
 {
@@ -61,8 +60,7 @@ void pop(stack_t **stack, unsigned int nline)
   * swap - swaps top 2 elements of a stack.
   * @stack: pointer to the head node pointer of stack
   * @nline: line number
-  *
-  * Return: NAIN
+  * Return: ...
   */
 void swap(stack_t **stack, unsigned int nline)
 {
@@ -84,7 +82,7 @@ void swap(stack_t **stack, unsigned int nline)
   * pchar - prints char at top of stack
   * @stack: pointer to the head node pointer of stack
   * @nline: line number
-  * Return: NAIN
+  * Return: ...
   */
 void pchar(stack_t **stack, unsigned int nline)
 {
@@ -118,7 +116,7 @@ void pchar(stack_t **stack, unsigned int nline)
   * pstr - prints a string from ascii starting from the top.
   * @stack: pointer to the head node pointer of stack
   * @nline: line number
-  * Return: NAIN
+  * Return: ...
   */
 void pstr(stack_t **stack, unsigned int nline)
 {
