@@ -1,12 +1,10 @@
 #include "monty.h"
 
 /**
-  * get_op_func - searches and matches text to opcode
-  * then returns corresponding function.
-  * @line: struct containing line content and number.
-  * @meta: struct containing all allocated memory.
-  *
-  * Return: pointer to relevant function.
+  * get_op_func - searches and matches text to opcode.
+  * @line: the struct containing line content and number.
+  * @meta: the struct containing all allocated memory.
+  * Return: ...
   */
 void (*get_op_func(line_t line, meta_t *meta))(stack_t **, unsigned int)
 {
